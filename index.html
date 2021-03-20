@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRIQUI</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontstyle.css">
+    <link rel="stylesheet" href="css/sweetalert2.min.css">    
+</head>
+    <body>
+        <div id="all" align="center">
+            <div id="turn">
+                <span>El turno corresponde a:<br> <br><span id="playerTurn"></span></span> 
+            </div>
+            <div id="data">
+                    <input class="data" type="text" id="player1"> 
+                    <input class="data"type="text" id="player2"> <br>
+                    <span style="margin-right: 100px;">Jugador 1</span> <span>Jugador 2</span> <br> <br>
+                    <input type="button" value="Iniciar juego" id="start">
+            </div>
+            <div class="triqui">
+                <div class="row">
+                    <div class="cell" data-name="c0" id = "c0"></div>
+                    <div class="cell" data-name="c1" id = "c1"></div>
+                    <div class="cell" data-name="c2" id = "c2"></div>
+                </div>  
+                <div class="row"> 
+                    <div class="cell" data-name="c3" id = "c3"></div>
+                    <div class="cell" data-name="c4" id = "c4"></div>
+                    <div class="cell" data-name="c5" id = "c5"></div>
+                </div>  
+                <div class="row"> 
+                    <div class="cell" data-name="c6" id = "c6"></div>
+                    <div class="cell" data-name="c7" id = "c7"></div>
+                    <div class="cell" data-name="c8" id = "c8"></div>
+                </div>
+            </div>   
+        </div>
+        <script src="js/triquiFunction.js"></script>
+	<script src="js/sweetalert2.all.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+@font-face{
+    font-family: TuscanBlack;
+    src: url(../fonts/TuscanBlack.otf);
+}
+#all span{
+    font-family: TuscanBlack;
+    font-size: 20px;
+}
+#all #data span{
+    background-color: honeydew;
+    padding: 1px;
+}
+#all #turn #playerTurn{
+    font-size: 40px;
+    color: rgb(216, 15, 132);
+}
+#all #turn{
+    color: whitesmoke;
+}
+#all #data #start{
+    font-family: TuscanBlack;
+}
+.triqui{
+    font-family: TuscanBlack;
+    font-size: 80px;
+    color: rgb(35, 212, 35);
+}
+.triqui .row .cell{
+    text-align: center;
+    padding-top: 50px;
+}
